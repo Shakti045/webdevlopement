@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.para{
+    border-bottom: 2px solid white;
+}
