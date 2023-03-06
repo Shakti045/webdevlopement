@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+#percentagebar{
+    width: 00%;
+    height: 5px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
