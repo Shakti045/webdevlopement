@@ -33,3 +33,35 @@ function typeWri(){
 
 </body>
 </html>
+
+//for word by word
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <span>I am...</span>
+  <span id="text"></span>
+</body>
+<script>
+let arr=["Shakti","Shree","Mandal","Coder","Hacker","Devloper"]
+let i=-1;
+let v=document.getElementById("text")
+
+function typer(){
+   i++
+   if(i<arr.length){
+    v.innerText= v.innerText+" "+ arr[i]
+   }else{
+    i=-1
+    v.innerText=""
+   }
+}
+setInterval(typer,100)
+</script>
+</html>
