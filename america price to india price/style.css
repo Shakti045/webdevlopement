@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    width:100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.americaprice{
+    background-color: red;
+     width: 40%;
+     min-height: 100vh;
+}
+.buttons{
+    background-color: green;
+    width: 20%;
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indianprice{
+    background-color: black;
+    width: 40%;
+    min-height: 100vh;
+}
+button{
+    width: 100%;
+    background-color: pink;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+}
+h1{
+    text-align: center;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+  
+    padding: 16px;
+    border-radius: 25px;
+    border: none;
+    /* outline: none; */
+   
+}
+.indianprice ul li{
+    display: flex;
+    gap: 14px;
+    
+}
+.indianprice ul li div{
+color: red;
+font-weight: 800;
+    padding: 16px;
+    background-color: white;
+    border-radius: 25px;
+
+    width: 40%;
+  
+}
+
+input{
+    transition: all;
+    transition-duration: 4s;
+}
+input:hover{
+    opacity:0.6;
+}
